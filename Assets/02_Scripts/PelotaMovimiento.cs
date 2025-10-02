@@ -6,6 +6,7 @@ public class PelotaMovimiento : MonoBehaviour
     public float velocidad = 5f;
     private Rigidbody2D rb;
     private Vector2 posicionInicial;
+    private bool esperandoReinicio = false;
 
     void Start()
     {
@@ -25,11 +26,20 @@ public class PelotaMovimiento : MonoBehaviour
 
     void Update()
     {
-        rb.velocity = rb.velocity.normalized * velocidad;
+        if (!esperandoReinicio)
+        {
+            rb.velocity = rb.velocity.normalized * velocidad;
+        }
+        else
+        {
+            rb.velocity = Vector2.zero; // Detener movimiento mientras espera reinicio
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        if (esperandoReinicio) return; // Ignorar colisiones mientras reinicia
+
         if (collision.gameObject.CompareTag("Player"))
         {
             float nuevaDireccionX = rb.velocity.x > 0 ? -1f : 1f;
@@ -39,13 +49,12 @@ public class PelotaMovimiento : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("Pared"))
         {
-            // Para paredes superior e inferior rebotar normalmente
             float nuevaDireccionY = -rb.velocity.y;
             float nuevaDireccionX = rb.velocity.x + Random.Range(-0.3f, 0.3f);
             Vector2 nuevaDireccion = new Vector2(nuevaDireccionX, nuevaDireccionY).normalized;
             rb.velocity = nuevaDireccion * velocidad;
         }
-        else if (collision.gameObject.CompareTag("ParedLateral")) // Pared izquierda o derecha
+        else if (collision.gameObject.CompareTag("ParedLateral"))
         {
             StartCoroutine(ReiniciarPelota());
         }
@@ -53,16 +62,13 @@ public class PelotaMovimiento : MonoBehaviour
 
     IEnumerator ReiniciarPelota()
     {
-        // Desactiva la pelota
-        gameObject.SetActive(false);
+        esperandoReinicio = true;
+        rb.velocity = Vector2.zero;
+        transform.position = posicionInicial;
 
-        // Espera 1 segundo (puedes cambiar el tiempo)
         yield return new WaitForSeconds(1f);
 
-        // Reinicia posición y activa
-        transform.position = posicionInicial;
-        gameObject.SetActive(true);
-
         LanzarPelota();
+        esperandoReinicio = false;
     }
 }
