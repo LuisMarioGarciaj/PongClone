@@ -2,23 +2,39 @@ using UnityEngine;
 
 public class RaquetaDerechaMovimiento : MonoBehaviour
 {
-    public float velocidad = 5f;  // Velocidad de movimiento de la raqueta
+    public float velocidad = 5f;
+    private Rigidbody2D rb;
+    private float movimiento;
+
+    public float limiteSuperior = 4.5f;  // Ajusta según el tamaño de la pantalla y la raqueta
+    public float limiteInferior = -4.5f;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
 
     void Update()
     {
-        float movimiento = 0f;
+        movimiento = 0f;
 
-        // Movimiento hacia arriba y abajo con las teclas de flecha "Arriba" y "Abajo"
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            movimiento = 1f;  // Subir
+            movimiento = 1f;
         }
         else if (Input.GetKey(KeyCode.DownArrow))
         {
-            movimiento = -1f;  // Bajar
+            movimiento = -1f;
         }
+    }
 
-        // Mueve la raqueta hacia arriba o abajo
-        transform.Translate(0, movimiento * velocidad * Time.deltaTime, 0);
+    void FixedUpdate()
+    {
+        Vector2 nuevaPos = rb.position + Vector2.up * movimiento * velocidad * Time.fixedDeltaTime;
+
+        // Limita la posición para que no se salga de la pantalla (o se atraviese las paredes)
+        nuevaPos.y = Mathf.Clamp(nuevaPos.y, limiteInferior, limiteSuperior);
+
+        rb.MovePosition(nuevaPos);
     }
 }

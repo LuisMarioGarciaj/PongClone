@@ -1,54 +1,68 @@
 using UnityEngine;
+using System.Collections;
 
 public class PelotaMovimiento : MonoBehaviour
 {
-    public float velocidad = 5f;  // Velocidad de la pelota
-    private Vector2 direccion;
+    public float velocidad = 5f;
+    private Rigidbody2D rb;
+    private Vector2 posicionInicial;
 
     void Start()
     {
-        // La pelota comienza con una dirección aleatoria (en el eje X la pelota puede ir hacia la izquierda o la derecha)
-        direccion = new Vector2(Random.Range(0, 2) == 0 ? 1f : -1f, Random.Range(-1f, 1f)).normalized;
+        rb = GetComponent<Rigidbody2D>();
+        posicionInicial = transform.position;
+        LanzarPelota();
+    }
+
+    void LanzarPelota()
+    {
+        float direccionX = Random.Range(0, 2) == 0 ? -1f : 1f;
+        float direccionY = Random.Range(-1f, 1f);
+
+        Vector2 direccion = new Vector2(direccionX, direccionY).normalized;
+        rb.velocity = direccion * velocidad;
     }
 
     void Update()
     {
-        // Mueve la pelota según la dirección
-        transform.Translate(direccion * velocidad * Time.deltaTime);
+        rb.velocity = rb.velocity.normalized * velocidad;
+    }
 
-        // Rebote en los límites superior e inferior (suponiendo que los límites son -5 y 5 en Y)
-        if (transform.position.y >= 5f || transform.position.y <= -5f)
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
         {
-            direccion.y = -direccion.y;  // Cambiar la dirección en Y (rebote en el eje Y)
+            float nuevaDireccionX = rb.velocity.x > 0 ? -1f : 1f;
+            float nuevaDireccionY = Random.Range(-0.5f, 0.5f);
+            Vector2 nuevaDireccion = new Vector2(nuevaDireccionX, nuevaDireccionY).normalized;
+            rb.velocity = nuevaDireccion * velocidad;
         }
-
-        // Si la pelota pasa por los límites izquierdo o derecho de la pantalla, se reinicia
-        if (transform.position.x <= -8f)  // Pasa de jugador 1 (izquierda)
+        else if (collision.gameObject.CompareTag("Pared"))
         {
-            // Aquí puedes añadir una lógica de puntuación si quieres.
-            ReiniciarPelota();  // Reinicia la pelota al centro
+            // Para paredes superior e inferior rebotar normalmente
+            float nuevaDireccionY = -rb.velocity.y;
+            float nuevaDireccionX = rb.velocity.x + Random.Range(-0.3f, 0.3f);
+            Vector2 nuevaDireccion = new Vector2(nuevaDireccionX, nuevaDireccionY).normalized;
+            rb.velocity = nuevaDireccion * velocidad;
         }
-        else if (transform.position.x >= 8f)  // Pasa de jugador 2 (derecha)
+        else if (collision.gameObject.CompareTag("ParedLateral")) // Pared izquierda o derecha
         {
-            // Aquí también puedes añadir una lógica de puntuación si quieres.
-            ReiniciarPelota();  // Reinicia la pelota al centro
+            StartCoroutine(ReiniciarPelota());
         }
     }
 
-    // Detecta las colisiones con las raquetas
-    void OnCollisionEnter2D(Collision2D col)
+    IEnumerator ReiniciarPelota()
     {
-        if (col.gameObject.CompareTag("Player"))
-        {
-            // Rebotar en X al tocar una raqueta
-            direccion.x = -direccion.x;
-        }
-    }
+        // Desactiva la pelota
+        gameObject.SetActive(false);
 
-    // Reinicia la pelota a la posición central
-    void ReiniciarPelota()
-    {
-        transform.position = Vector2.zero;  // Coloca la pelota en el centro
-        direccion = new Vector2(Random.Range(0, 2) == 0 ? 1f : -1f, Random.Range(-1f, 1f)).normalized;  // Nueva dirección aleatoria
+        // Espera 1 segundo (puedes cambiar el tiempo)
+        yield return new WaitForSeconds(1f);
+
+        // Reinicia posición y activa
+        transform.position = posicionInicial;
+        gameObject.SetActive(true);
+
+        LanzarPelota();
     }
 }
