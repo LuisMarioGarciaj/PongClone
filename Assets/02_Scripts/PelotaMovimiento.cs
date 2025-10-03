@@ -3,15 +3,23 @@ using System.Collections;
 
 public class PelotaMovimiento : MonoBehaviour
 {
-    public float velocidad = 5f;
+    public float velocidadInicial = 7f;
+    public float incrementoVelocidad = 0.5f;
+    public float velocidadMaxima = 17f;
+
     private Rigidbody2D rb;
     private Vector2 posicionInicial;
     private bool esperandoReinicio = false;
+    private float velocidadActual;
+
+    [SerializeField]
+    AudioSource sound;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         posicionInicial = transform.position;
+        velocidadActual = velocidadInicial;
         LanzarPelota();
     }
 
@@ -21,14 +29,15 @@ public class PelotaMovimiento : MonoBehaviour
         float direccionY = Random.Range(-1f, 1f);
 
         Vector2 direccion = new Vector2(direccionX, direccionY).normalized;
-        rb.velocity = direccion * velocidad;
+        rb.velocity = direccion * velocidadActual;
     }
 
     void Update()
     {
         if (!esperandoReinicio)
         {
-            rb.velocity = rb.velocity.normalized * velocidad;
+            // Mantener la velocidad constante pero con el valor actualizado
+            rb.velocity = rb.velocity.normalized * velocidadActual;
         }
         else
         {
@@ -42,22 +51,40 @@ public class PelotaMovimiento : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Player"))
         {
+            sound.Play();
+
+            // Aumentar la velocidad cuando golpea una raqueta
+            AumentarVelocidad();
+
             float nuevaDireccionX = rb.velocity.x > 0 ? -1f : 1f;
             float nuevaDireccionY = Random.Range(-0.5f, 0.5f);
             Vector2 nuevaDireccion = new Vector2(nuevaDireccionX, nuevaDireccionY).normalized;
-            rb.velocity = nuevaDireccion * velocidad;
+            rb.velocity = nuevaDireccion * velocidadActual;
         }
         else if (collision.gameObject.CompareTag("Pared"))
         {
+            sound.Play();
             float nuevaDireccionY = -rb.velocity.y;
             float nuevaDireccionX = rb.velocity.x + Random.Range(-0.3f, 0.3f);
             Vector2 nuevaDireccion = new Vector2(nuevaDireccionX, nuevaDireccionY).normalized;
-            rb.velocity = nuevaDireccion * velocidad;
+            rb.velocity = nuevaDireccion * velocidadActual;
         }
         else if (collision.gameObject.CompareTag("ParedLateral"))
         {
+            sound.Play();
+            // Reiniciar la velocidad cuando se anota un punto
+            velocidadActual = velocidadInicial;
             StartCoroutine(ReiniciarPelota());
         }
+    }
+
+    void AumentarVelocidad()
+    {
+        // Aumentar la velocidad sin superar el máximo
+        velocidadActual = Mathf.Min(velocidadActual + incrementoVelocidad, velocidadMaxima);
+
+        // Opcional: mostrar en consola para debugging
+        Debug.Log($"Velocidad actual: {velocidadActual}");
     }
 
     IEnumerator ReiniciarPelota()

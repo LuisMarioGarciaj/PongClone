@@ -56,15 +56,16 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\02_Scripts\PongScore\LateralGoalAwarder.cs" />
+    <Compile Include="Assets\02_Scripts\PongScore\MenuHighScoreDisplay.cs" />
+    <Compile Include="Assets\02_Scripts\PongScore\ScoreManager.cs" />
     <Compile Include="Assets\02_Scripts\PelotaMovimiento.cs" />
     <Compile Include="Assets\02_Scripts\RaquetaIzquierdaMovimiento.cs" />
     <Compile Include="Assets\02_Scripts\Marcador.cs" />
-    <Compile Include="Assets\02_Scripts\RaquetaDerechaMovimiento.cs" />
-    <Compile Include="Assets\02_Scripts\PongScore\MenuHighScoreDisplay.cs" />
-    <Compile Include="Assets\02_Scripts\PongScore\HighScoreDisplay.cs" />
     <Compile Include="Assets\02_Scripts\PongScore\ScoreUIBinder.cs" />
-    <Compile Include="Assets\02_Scripts\PongScore\ScoreManager.cs" />
-    <Compile Include="Assets\02_Scripts\PongScore\LateralGoalAwarder.cs" />
+    <Compile Include="Assets\02_Scripts\PongScore\HighScoreDisplay.cs" />
+    <Compile Include="Assets\02_Scripts\RaquetaDerechaMovimiento.cs" />
+    <Compile Include="Assets\02_Scripts\GameOverManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
