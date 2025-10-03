@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Pared
   - ParedLateral
+  - Ball
   layers:
   - Default
   - TransparentFX

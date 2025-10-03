@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|c:\\ing sistemas\\6to semestre\\realidad virtual\\pongclone\\pongclone\\assets\\02_scripts\\pongscore\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\pongscore\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|c:\\ing sistemas\\6to semestre\\realidad virtual\\pongclone\\pongclone\\assets\\02_scripts\\pongscore\\highscoredisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\pongscore\\highscoredisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|c:\\ing sistemas\\6to semestre\\realidad virtual\\pongclone\\pongclone\\assets\\02_scripts\\pongscore\\menuhighscoredisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\pongscore\\menuhighscoredisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\assets\\02_scripts\\marcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\marcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|c:\\ing sistemas\\6to semestre\\realidad virtual\\pongclone\\pongclone\\assets\\02_scripts\\pongscore\\lateralgoalawarder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\pongscore\\lateralgoalawarder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|c:\\ing sistemas\\6to semestre\\realidad virtual\\pongclone\\pongclone\\assets\\02_scripts\\pongscore\\scoreuibinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\pongscore\\scoreuibinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|c:\\ing sistemas\\6to semestre\\realidad virtual\\pongclone\\pongclone\\assets\\02_scripts\\pelotamovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\pelotamovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\assets\\02_scripts\\raquetaderechamovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\raquetaderechamovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\assets\\02_scripts\\raquetaizquierdamovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\raquetaizquierdamovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuHighScoreDisplay.cs",
+              "DocumentMoniker": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\Assets\\02_Scripts\\PongScore\\MenuHighScoreDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\PongScore\\MenuHighScoreDisplay.cs",
+              "ToolTip": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\Assets\\02_Scripts\\PongScore\\MenuHighScoreDisplay.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\PongScore\\MenuHighScoreDisplay.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:33:08.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HighScoreDisplay.cs",
+              "DocumentMoniker": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\Assets\\02_Scripts\\PongScore\\HighScoreDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\PongScore\\HighScoreDisplay.cs",
+              "ToolTip": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\Assets\\02_Scripts\\PongScore\\HighScoreDisplay.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\PongScore\\HighScoreDisplay.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:32:56.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScoreUIBinder.cs",
+              "DocumentMoniker": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\Assets\\02_Scripts\\PongScore\\ScoreUIBinder.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\PongScore\\ScoreUIBinder.cs",
+              "ToolTip": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\Assets\\02_Scripts\\PongScore\\ScoreUIBinder.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\PongScore\\ScoreUIBinder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:20:09.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\Assets\\02_Scripts\\PongScore\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\PongScore\\ScoreManager.cs",
+              "ToolTip": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\Assets\\02_Scripts\\PongScore\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\PongScore\\ScoreManager.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAADwvzYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:19:53.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LateralGoalAwarder.cs",
+              "DocumentMoniker": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\Assets\\02_Scripts\\PongScore\\LateralGoalAwarder.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\PongScore\\LateralGoalAwarder.cs",
+              "ToolTip": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\Assets\\02_Scripts\\PongScore\\LateralGoalAwarder.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\PongScore\\LateralGoalAwarder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:13:59.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Marcador.cs",
+              "DocumentMoniker": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\Assets\\02_Scripts\\Marcador.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\Marcador.cs",
+              "ToolTip": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\Assets\\02_Scripts\\Marcador.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\Marcador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:05:19.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RaquetaIzquierdaMovimiento.cs",
+              "DocumentMoniker": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\Assets\\02_Scripts\\RaquetaIzquierdaMovimiento.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\RaquetaIzquierdaMovimiento.cs",
+              "ToolTip": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\Assets\\02_Scripts\\RaquetaIzquierdaMovimiento.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\RaquetaIzquierdaMovimiento.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAIwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:05:17.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RaquetaDerechaMovimiento.cs",
+              "DocumentMoniker": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\Assets\\02_Scripts\\RaquetaDerechaMovimiento.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\RaquetaDerechaMovimiento.cs",
+              "ToolTip": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\Assets\\02_Scripts\\RaquetaDerechaMovimiento.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\RaquetaDerechaMovimiento.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAIwCAAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:05:17.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PelotaMovimiento.cs",
+              "DocumentMoniker": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\Assets\\02_Scripts\\PelotaMovimiento.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\PelotaMovimiento.cs",
+              "ToolTip": "C:\\Ing Sistemas\\6to Semestre\\Realidad Virtual\\PongClone\\PongClone\\Assets\\02_Scripts\\PelotaMovimiento.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\PelotaMovimiento.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAcwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:05:18.051Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
