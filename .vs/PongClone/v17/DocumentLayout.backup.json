@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|c:\\6to_semestre\\realidad virtual\\pongclone\\paunir\\pongclone\\assets\\02_scripts\\gameovermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\gameovermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\assets\\02_scripts\\marcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\marcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\assets\\02_scripts\\pongscore\\highscoredisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\pongscore\\highscoredisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\assets\\02_scripts\\pongscore\\lateralgoalawarder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\pongscore\\lateralgoalawarder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|c:\\6to_semestre\\realidad virtual\\pongclone\\paunir\\pongclone\\assets\\02_scripts\\pongscore\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\pongscore\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\assets\\02_scripts\\pongscore\\menuhighscoredisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\pongscore\\menuhighscoredisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\assets\\02_scripts\\pongscore\\scoreuibinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\pongscore\\scoreuibinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\assets\\02_scripts\\pelotamovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\pelotamovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\assets\\02_scripts\\raquetaizquierdamovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\raquetaizquierdamovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\assets\\02_scripts\\raquetaderechamovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FF52-2F5B-412A-D090-FF63BE4B3164}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\raquetaderechamovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameOverManager.cs",
+              "DocumentMoniker": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\GameOverManager.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\GameOverManager.cs",
+              "ToolTip": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\GameOverManager.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\GameOverManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T00:18:34.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Marcador.cs",
+              "DocumentMoniker": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\Marcador.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\Marcador.cs",
+              "ToolTip": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\Marcador.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\Marcador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:05:19.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HighScoreDisplay.cs",
+              "DocumentMoniker": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\PongScore\\HighScoreDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\PongScore\\HighScoreDisplay.cs",
+              "ToolTip": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\PongScore\\HighScoreDisplay.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\PongScore\\HighScoreDisplay.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAIwBEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:32:56.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LateralGoalAwarder.cs",
+              "DocumentMoniker": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\PongScore\\LateralGoalAwarder.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\PongScore\\LateralGoalAwarder.cs",
+              "ToolTip": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\PongScore\\LateralGoalAwarder.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\PongScore\\LateralGoalAwarder.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAcwA4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:13:59.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuHighScoreDisplay.cs",
+              "DocumentMoniker": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\PongScore\\MenuHighScoreDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\PongScore\\MenuHighScoreDisplay.cs",
+              "ToolTip": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\PongScore\\MenuHighScoreDisplay.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\PongScore\\MenuHighScoreDisplay.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAA9wAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:33:08.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\PongScore\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\PongScore\\ScoreManager.cs",
+              "ToolTip": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\PongScore\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\PongScore\\ScoreManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:19:53.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScoreUIBinder.cs",
+              "DocumentMoniker": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\PongScore\\ScoreUIBinder.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\PongScore\\ScoreUIBinder.cs",
+              "ToolTip": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\PongScore\\ScoreUIBinder.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\PongScore\\ScoreUIBinder.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAwwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:20:09.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PelotaMovimiento.cs",
+              "DocumentMoniker": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\PelotaMovimiento.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\PelotaMovimiento.cs",
+              "ToolTip": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\PelotaMovimiento.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\PelotaMovimiento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:05:18.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RaquetaIzquierdaMovimiento.cs",
+              "DocumentMoniker": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\RaquetaIzquierdaMovimiento.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\RaquetaIzquierdaMovimiento.cs",
+              "ToolTip": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\RaquetaIzquierdaMovimiento.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\RaquetaIzquierdaMovimiento.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAIwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:05:17.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RaquetaDerechaMovimiento.cs",
+              "DocumentMoniker": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\RaquetaDerechaMovimiento.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\RaquetaDerechaMovimiento.cs",
+              "ToolTip": "C:\\6TO_SEMESTRE\\REALIDAD VIRTUAL\\PongClone\\PAUNIR\\PongClone\\Assets\\02_Scripts\\RaquetaDerechaMovimiento.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\RaquetaDerechaMovimiento.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAIwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:05:17.683Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
